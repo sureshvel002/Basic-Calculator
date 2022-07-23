@@ -1,0 +1,45 @@
+.Calculator{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calci_keys{
+    background-color:blanchedalmond;
+    padding: 15px; 
+    border-radius:30px;
+    display:grid;
+    grid-template-columns:(4,68px)
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 250px;
+    background-color:cyan;
+    border:none;
+    border-radius:15px;
+    font-size:65px;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    border-radius:50%;
+    background-color:blanchedalmond;
+    box-shadow:-5px -5px 12px blanchedalmond,
+                   5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    margin: 8px;
+    font-size: 17px;    
+}
+
+.equal{
+    width: 50px;
+    border-radius: 40px;
+    
+    
+}
